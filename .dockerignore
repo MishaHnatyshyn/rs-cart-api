@@ -1,0 +1,15 @@
+# ignore local node modules
+node_modules
+
+# we don't need tests in docker images
+test
+**/*spec.ts
+
+# we don't need git folder in docker image
+.git
+
+# ignore local build data
+dist
+
+# ignore npm-debug file
+npm-debug.log
